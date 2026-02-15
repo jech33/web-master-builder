@@ -6,22 +6,40 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint --max-warnings=0",
+    "commit": "czg"
   },
   "dependencies": {
+    "@sanity/color-input": "6.0.4",
+    "@sanity/icons": "3.7.4",
+    "@sanity/image-url": "2.0.3",
+    "@sanity/vision": "5.9.0",
     "next": "16.1.6",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "next-sanity": "12.1.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "sanity": "5.9.0",
+    "styled-components": "6.3.9"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "4.1.18",
+    "@types/node": "20.19.33",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@typescript-eslint/eslint-plugin": "8.55.0",
     "babel-plugin-react-compiler": "1.0.0",
-    "eslint": "^9",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "czg": "1.12.0",
+    "eslint": "9.39.2",
     "eslint-config-next": "16.1.6",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-prettier": "5.5.5",
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "prettier-plugin-tailwindcss": "0.7.2",
+    "tailwind-merge": "3.4.0",
+    "tailwindcss": "4.1.18",
+    "typescript": "5.9.3"
   }
 }
